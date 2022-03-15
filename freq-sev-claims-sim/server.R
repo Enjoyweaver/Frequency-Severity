@@ -4,7 +4,7 @@ function(input, output, session) {
   # determine parameters and default values belonging for frequency distribution
   freq_param_labels <- reactive({
     switch(input$freq_dist,
-      "poisson" = list(params = "lambda", values = 10),
+      "poisson" = list(params = "lambda", values = 11),
       "binomial" = list(params = c("q", "m"), values = c(0.8, 12)),
       "nbinomial" = list(params = c("r", "B"), values = c(2, 5))
     )
