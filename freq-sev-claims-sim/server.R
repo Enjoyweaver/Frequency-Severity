@@ -67,10 +67,10 @@ function(input, output, session) {
   sev_param_labels <- reactive({
     switch(input$sev_dist,
            "lognormal" = list(params = c("mu", "sigma"), values = c(9.0, 2.0)),
-           "pareto" = list(params = c("theta", "alpha"), values = c(100000, 3.0)),
-           "exponential" = list(params = "theta", values = 50000),
-           "gamma" = list(params = c("theta", "alpha"), values = c(25000, 2)),
-           "weibull" = list(params = c("theta", "tau"), values = c(25000, 0.5))
+           "pareto" = list(params = c("theta", "alpha"), values = c(10000, 3.0)),
+           "exponential" = list(params = "theta", values = 5000),
+           "gamma" = list(params = c("theta", "alpha"), values = c(2500, 2)),
+           "weibull" = list(params = c("theta", "tau"), values = c(2500, 0.5))
     )
   })
   
