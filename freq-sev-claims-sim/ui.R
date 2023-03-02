@@ -8,15 +8,15 @@ fluidPage(
       tags$div(
         a(
           img(
-            src = "https://res.cloudinary.com/dxqnb8xjb/image/upload/v1499450435/logo-blue_hnvtgb.png", 
+            src = "C:\Users\enjoy\OneDrive\Desktop\Phoenix Cover\Website\Images\Logo 1.jpg", 
             width = 50
           ), 
-          href = "https://tychobra.com/shiny"
+          href = "https://JoinPhoenix.io"
         ),
         h1("Frequency/Severity Loss Simulation"),
         actionButton(
           "tour", 
-          "Take a Tour",
+          "Connect Your Wallet",
           class = "btn btn-info pull-right"
         )
       ), 
